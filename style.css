@@ -1,0 +1,81 @@
+.calendar{
+	margin-top: 20px;
+	text-align: center;
+	font-family: Arial;
+	width: 100%;
+}
+
+.calendar-row-1{
+	display: inline-block;
+	margin-left: 20px;
+	width: 15%;
+}
+
+.calendar-row-2{
+	display: inline-block;
+	margin-left: 20px;
+	width: 15%;
+}
+
+.calendar-row-3{
+	display: inline-block;
+	margin-left: 20px;
+	width: 15%;
+}
+
+.calendar-row-4{
+	display: inline-block;
+	margin-left: 20px;
+	width: 15%;
+}
+
+table{
+	border: 2px solid black;
+	text-align: center;
+	width: 100%;
+}
+
+tr{
+	border: 1px solid black;
+	height: 30px;
+}
+
+td{
+	border: 1px solid black;
+}
+
+/*January*/
+.january{
+	
+}
+
+#month-year{
+	font-family: Arial;
+}
+
+#days{
+	background-color: red;
+}
+
+/*In case the user minimize the screen*/
+@media only screen and (max-width: 800px){
+	.calendar{
+		width: 200%;
+		text-align: left;
+	}
+
+	table{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 1100px){
+	.calendar{
+		width: 200%;
+		text-align: left;
+	}
+
+	table{
+		width: 100%;
+	}
+}
